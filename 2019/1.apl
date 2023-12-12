@@ -1,3 +1,4 @@
+⍝ Write a function that, given a scalar or vector as the right argument and a positive (>0) integer chunk size n as the left argument, breaks the array’s items up into chunks of size n. If the number of elements in the array is not evenly divisible by n, then the last chunk will have fewer than n elements.
 l←'The' 'cat' 'in' 'the' 'hat' 'sat' 'pat'
 1 0 0 1 1 0 1⊂l
 ⍝ ┌────────────┬─────┬─────────┬─────┐
