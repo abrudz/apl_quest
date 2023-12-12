@@ -1,3 +1,4 @@
+⍝ Write a function that will remove text found between pairs of double quotes (").
 ⍝ Test case:
 t←'Is "this" a "test"?'
 
