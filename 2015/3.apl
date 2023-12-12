@@ -1,3 +1,4 @@
+⍝ Write a function that takes an integer right argument and returns a vector of the terms in the Farey sequence of that order. Each element in the returned vector is itself a 2-element vector of numerator and denominator for the corresponding term.
 ⍝ Generate all indices in n×n matrix
 Ii←{0 1,⍥⊆f[i][⍋q[i←(1∘≥∩⍥⍸≠)q←÷/¨f←,⍳⍵ ⍵]]}
 Ij←{0 1,⍥⊆f[i][⍋q[i←⍸(1∘≥∧≠)q←÷/¨f←,⍳⍵ ⍵]]}
