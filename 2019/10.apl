@@ -1,3 +1,4 @@
+⍝ Given a vector of words, separate the words into two vectors – one containing all the words that have an odd number of letters and the other containing all the words that have an even number of letters.
 ⍝ Test data:
 t←'only' 'even' 'all' 'odd' 'the' 'plan' 'is' 'great'
 
