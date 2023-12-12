@@ -1,3 +1,8 @@
+⍝ Write a function that:
+⍝    has a right argument Y which is an integer vector or scalar
+⍝    has a left argument X which is also an integer vector or scalar
+⍝    finds which elements of Y are multiples of each element of X and returns them as a vector (in the order of X) of vectors (in the order of Y).
+
 2 4 7 3 9  {⍺⍵}¨∘⊂  5 7 8 1 12 10
 ⍝ ┌─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐
 ⍝ │┌─┬─────────────┐│┌─┬─────────────┐│┌─┬─────────────┐│┌─┬─────────────┐│┌─┬─────────────┐│
