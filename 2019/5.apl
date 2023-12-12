@@ -1,3 +1,4 @@
+⍝ Given a word or a list of words, return a Boolean vector where 1 indicates a word with one or more consecutive duplicated, case-sensitive, letters. Each word will have at least one letter and will consist entirely of either uppercase (A–Z) or lowercase (a–z) letters. Words consisting of a single letter can be scalars.
 2=/'Hello'
 ⍝ 0 0 1 0
 ∨/2=/'Hello'
