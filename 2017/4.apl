@@ -1,3 +1,4 @@
+⍝ Write a function that calculates and returns the areas of 0 or more pie slices. The left argument is 0 or more angles (in degrees). The right argument is 0 or more pie diameters. If the number of angles and diameters are not equal to each other (and neither is a single number), a LENGTH ERROR should be generated.
 ⍝ Explicit:
 {(○r)×r←⍵÷2}        ⍝ area of circle: rectangle of (circumference÷2)×radius
 {○×⍨⍵÷2}            ⍝ area of circle
