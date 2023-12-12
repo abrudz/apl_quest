@@ -1,3 +1,4 @@
+⍝ Given a 2-element vector representing the current square for a knight, return a vector of 2-element vectors representing (in any order) all the squares that the knight can move to. chess board as an 8×8 matrix.
 {⍳8 8} 5 4
 ⍝ ┌───┬───┬───┬───┬───┬───┬───┬───┐
 ⍝ │1 1│1 2│1 3│1 4│1 5│1 6│1 7│1 8│
