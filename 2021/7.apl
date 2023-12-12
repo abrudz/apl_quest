@@ -1,3 +1,7 @@
+⍝ Write a function to test whether an array is a magic square. The function must:
+⍝   have a right argument that is a square matrix of integers (not necessarily all positive integers)
+⍝   return 1 if the array represents a magic square, otherwise return 0
+
 s←(⍪1)(3 3⍴4 9 2 3 5 7 8 1 6)(2 2⍴1 2 3 4)(3 3⍴⍳9)
 
 s
