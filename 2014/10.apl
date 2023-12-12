@@ -1,3 +1,4 @@
+⍝ Given a vector representing monthly sales figures, write a dfn that returns the greatest percent month to month increase.
 t←80 100 120 140
 
 {100×⌈⌿(¯2-⌿⍵)÷¯1↓⍵}
