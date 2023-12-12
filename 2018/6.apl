@@ -1,3 +1,4 @@
+⍝ Write an APL expression that, given a character scalar or vector representing some XML, returns 1 if the angle brackets are properly balanced and 0 if not.
 t←⍪'<name><first>Drake</first><last>Mallard</last></name>' '<math><relation>2<3</relation></math>'
 t
 ⍝ ┌─────────────────────────────────────────────────────┐
