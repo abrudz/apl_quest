@@ -1,3 +1,4 @@
+⍝ Write a function that, given a right argument which is an integer array of year numbers greater than or equal to 1752 and less than 4000, returns a result of the same shape as the right argument where 1 indicates that the corresponding year is a leap year (0 otherwise).
       400 100 4|2000
 0 0 0
       400 100 4|1900
