@@ -1,3 +1,7 @@
+⍝ Write a function that:
+⍝    takes right and left arguments that are character vectors or scalars of equal length – these represent DNA strings.
+⍝    returns an integer representing the Hamming distance (the number of differences in corresponding positions) between the arguments.
+
 'GAGCCTACTAACGGGAT' = 'CATCGTAATGACGGCCT'
 ⍝ 0 1 0 1 0 1 1 0 1 0 1 1 1 1 0 0 1
 'GAGCCTACTAACGGGAT' ≠ 'CATCGTAATGACGGCCT'
