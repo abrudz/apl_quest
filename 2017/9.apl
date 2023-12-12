@@ -1,3 +1,4 @@
+⍝ Write a function that takes a character vector or scalar and returns a Boolean vector indicating anywhere an element is followed by an element of the same value.
 {2=/⍵}'Mississippi 39111'
 ⍝ 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 1
 {(2=/⍵),0}'Mississippi 39111'
