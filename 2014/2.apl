@@ -1,3 +1,4 @@
+⍝ Write a dfn which takes a character vector and removes the interior vowels from each word.
 t←'How are you'
 
 ⍝ Assume space-delimited words:
