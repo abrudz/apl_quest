@@ -1,3 +1,4 @@
+⍝ Write a dfn which solves a set of linear equations. 
 M←3 3⍴4 1 3 2 2 2 6 3 1
 r←2 6 4
 v←¯1 3 1
