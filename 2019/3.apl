@@ -1,3 +1,4 @@
+⍝ Given a non-empty character vector of single-letter grades, produce a 3-column, 5-row, alphabetically-sorted matrix of each grade, the number of occurrences of that grade, and the percentage (rounded to 1 decimal position) of the total number of occurrences of that grade. The table should have a row for each grade even if there are no occurrences of a grade.
 g←9 3 8 4 7/'DABFC'
 {⍵} g
 ⍝ DDDDDDDDDAAABBBBBBBBFFFFCCCCCCC
