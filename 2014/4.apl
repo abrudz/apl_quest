@@ -1,3 +1,4 @@
+⍝ Write a dfn that removes extraneous (leading, trailing, and multiple) spaces from a character vector.
 ⍝ Compare adjacent characters:
 A←{(' '=⊃⍵)↓⍵/⍨2∨/0,⍨' '≠⍵}
 B←' '∘(=∘⊃↓⊢⊢⍤/⍨2∨/0,⍨≠)     ⍝ tacit generalisation
