@@ -1,3 +1,4 @@
+⍝ Write a dfn which produces n month moving averages for a year’s worth of data.
 ⍝ Basic solutions
 (÷⌿÷≢)¨,/           ⍝ naive solution
 {(⍺+⌿⍵)÷⍺}          ⍝ better solution
