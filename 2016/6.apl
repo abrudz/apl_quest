@@ -1,3 +1,4 @@
+⍝ Write a function that takes a vector of vectors as its right argument and returns it sorted by the length of each element. An element of the vector can be scalar or an empty vector.
 d ← 1 'two' 'three' 4 '' (5 6 7 8)
 d
 ⍝┌─┬───┬─────┬─┬┬───────┐
