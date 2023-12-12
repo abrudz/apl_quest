@@ -1,3 +1,4 @@
+⍝ Write a dfn which returns a 1 if its character vector argument is a palindrome, 0 otherwise. 
 ⍝ Intersection:
 A←{c←⎕C⍵ ⋄ l←c/⍨c∊⎕C⎕A ⋄ l≡⌽l}
 A←≡∘⌽⍨∩⍥⎕C∘⎕A      ⍝ tacit
