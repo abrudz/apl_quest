@@ -1,3 +1,4 @@
+⍝ Write a function that takes a numeric vector and returns all elements that are divisible by 3 or 5.
 d←0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 0.5 3.5
 10 20 30  ∘.×  1 2 3 4
 ⍝┌→───────────┐
