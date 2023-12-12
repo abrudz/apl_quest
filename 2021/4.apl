@@ -1,3 +1,7 @@
+⍝ Write a function that:
+⍝    takes a right argument which is an array of positive numbers representing circle diameters
+⍝    returns a numeric array of the same shape as the right argument representing the difference between the areas of the circles and the areas of the largest squares that can be inscribed within each circle
+
 ⍝ area of square (Pythagoras):
 ⍝ ×⍨ = ×⍨×2⍨
 ⍝ ×⍨÷2⍨ = ×⍨
