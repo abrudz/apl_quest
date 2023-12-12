@@ -1,3 +1,4 @@
+⍝ Progressive dyadic iota is similar to ⍳ except that it returns the index of subsequent matches in the left argument until they are exhausted. Write a function that implements progressive dyadic iota.
 a←'Landon' ⋄ b←'Finnegan'
 
 {((⍴⍺)⍴⍋⍋⍺,⍵)⍳(⍴⍵)⍴⍋⍋⍵,⍺}
