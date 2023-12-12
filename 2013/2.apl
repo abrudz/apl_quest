@@ -1,3 +1,4 @@
+⍝ Write a dfn which returns the percent (from 0 to 100) of passing (65 or higher) grades in a vector of grades.
 t ← ?10⍴100
 F ← {100×(+/⍵≥65)÷≢⍵}      
 G ← {100×+/(⍵≥65)÷≢⍵}      
