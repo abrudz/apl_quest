@@ -1,3 +1,4 @@
+⍝ Write an APL expression that, given a scalar real non-negative number, will return a two-element vector of the integer and fractional parts of the number.
 ⍝ Floor-based:
 ⌊1.2345
 ⍝ 1
