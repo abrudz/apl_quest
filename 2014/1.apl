@@ -1,3 +1,4 @@
+⍝ Write a dfn that takes the length of the legs of a triangle as its left argument, and the length of the hypotenuse as its right argument and returns 1 if the triangle is a right triangle, 0 otherwise.
 {(+/⍺*2)=⍵*2}
 {(+.×⍨⍺)=×⍨⍵}  ⍝ inner product is equivalent for scalar functions on vectors
 +.×⍨⍤⊣=×⍨⍤⊢    ⍝ tacit equivalent

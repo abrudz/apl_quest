@@ -1,3 +1,4 @@
+⍝ Write a dfn which selects the floating point (non-integer) numbers from a numeric vector.
 v  ← ¯3.1 4 1.5 92.6 ¯5
 F  ← {⍵/⍨⍵≠⌊⍵}
 Ft ← /⍨∘(≠∘⌊⍨)⍨

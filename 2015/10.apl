@@ -1,3 +1,4 @@
+⍝ Write a function that takes an integer right argument representing the order of the Pascal’s triangle to be created and returns a triangle shaped formatted character matrix
 ⍝ GENERATION
 ⍝ Flat:
 F←{⍕⍤~∘0⍤1⍉∘.!⍨0,⍳⍵}

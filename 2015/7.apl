@@ -1,3 +1,4 @@
+⍝ Write a function to perform case-insensitive membership between two arrays.
 (6⍴⎕A) {(⎕C ⍺)∊(⎕C ⍵)} 'cdxy'
 (6⍴⎕A) ((⎕C⊣)∊(⎕C⊢)) 'cdxy'
 (6⍴⎕A) (⎕C⍤⊣∊⎕C⍤⊢) 'cdxy'

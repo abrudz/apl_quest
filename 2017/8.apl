@@ -1,3 +1,4 @@
+⍝ Write a dfn that takes a Boolean vector or scalar and “turns off” all the 1s after the first 1.
 <\ 0 0 1 1 0
 ⍝ 0 0 1 0 0
 ≢0 0 1 1 0

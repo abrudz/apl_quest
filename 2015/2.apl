@@ -1,3 +1,4 @@
+⍝ Write a function that takes a numeric vector and returns the length of the longest streak of positive growth.
 n←1 5 3 4 2 6 7 8
 
 ⍝ Intuitive solution:

@@ -1,3 +1,4 @@
+⍝ Write a dfn that takes an integer right argument and returns that number of terms in the Fibonacci sequence.
 Rec←{⍵≤1:⍵ ⋄ +/∇¨⍵-⍳2}¨⍳  ⍝ re-computation for each
 
 ∆←{⍵,+/¯2↑⍵}  ⍝ fundamental Fibonacci function

@@ -1,3 +1,4 @@
+⍝ Given a vector of (X Y) points, or a single X Y point, return a number indicating the area circumscribed by the points. Uses Gauss’s area formula.
 p←(2 4)(3 ¯8)(1 2)
 {↑⍵}p
 ⍝ 2  4

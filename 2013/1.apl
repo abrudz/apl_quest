@@ -1,3 +1,4 @@
+⍝ Write a dfn to produce a vector of the first n odd numbers.
 ⎕IO←1
 F←{1-⍨2×⍳⍵} ⍝ ⎕IO←1
 F←(⍸1 0⍴⍨2×⊢) ⍝ ⎕IO←1

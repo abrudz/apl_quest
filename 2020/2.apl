@@ -1,3 +1,4 @@
+⍝ write a function that, given a right argument which is a simple integer vector representing valid UTF-8 text, encloses each sequence of integers that represent a single character, like the result of 'UTF-8'∘⎕UCS¨'UTF-8'∘⎕UCS but does not use any system functions (names beginning with ⎕).
 ⎕UCS'D¥⍺⌊○9'
 ⍝ 68 165 9082 8970 9675 57
 'UTF-8'⎕UCS'D¥⍺⌊○9'

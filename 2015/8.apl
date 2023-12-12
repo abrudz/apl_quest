@@ -1,3 +1,4 @@
+⍝  implement a function to process output and change the 13s to 12.99. 
 a←11 12 13 14
 F←{⍵-0.01×13=⍵}
 

@@ -1,3 +1,4 @@
+⍝ Write a dfn which returns the magnitude of the range (i.e. the difference between the lowest and highest values) of a numeric array.
 ⍝ Only non-empty vectors
 {(⌈/⍵)-(⌊/⍵)}
 

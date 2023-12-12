@@ -1,3 +1,4 @@
+⍝ Write an APL dfn which produces an n×n identity matrix.
 =/¨⍤⍳,⍨  ⍝ equality of x and y in all indices
 ∘.=⍨⍳    ⍝ equality table for 1D indices
 

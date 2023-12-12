@@ -1,3 +1,4 @@
+⍝ Write a dfn which produces a multiplication table.
 ⍝ Basic solution
 ∘.×⍨⍳
 

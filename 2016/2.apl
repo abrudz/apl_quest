@@ -1,3 +1,4 @@
+⍝ Write a function that takes a numeric vector as its right argument and returns the median of the array. 
 d ← (3 1 4 1 5) (3 1 4 1) 1 ⍬ (,¯1)
 
 ⍝ Recursive one drop at a time:

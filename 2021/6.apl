@@ -1,3 +1,10 @@
+⍝ For a chessboard Write a function that:
+⍝   has a character vector right argument that is a permutation of 'KQRRBBNN'
+⍝   returns 1 if the following are true:
+⍝      the K is between the two Rs
+⍝       the Bs occupy one odd and one even position
+⍝   otherwise a 0 is returned.
+
 {⍵∩'KR'}¨'RNBQKBNR' 'RBBNQNRK' 'BRBKRNQN' 
 ⍝ ┌───┬───┬───┐
 ⍝ │RKR│RRK│RKR│

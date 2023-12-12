@@ -1,3 +1,4 @@
+⍝ Write an APL function that given a right argument Y of any array and a numeric scalar or vector left argument X returns a Boolean indicating if the left argument is a valid argument for X⍉Y, like the result of {0::0 ⋄ 1⊣⍺⍉⍵} but does not use ⍉ (to test the arguments).
 X←2 5⍴(3 1 2)(2 1 2)(1 1)1⍬(2 3 2)(1 2)  (1.2 2 3)1⍬
 Y←2 5⍴(2 3 4)(2 3 4)(3 4)0⍬(2 3 4)(2 3 4)(  2 3 4)⍬0⍴¨⊂⍳24
 

@@ -1,3 +1,5 @@
+⍝ Write a function that takes a numeric array as its right argument and returns the mean (average) of the array.
+
 ]box on  ⍝ turns on fancy display
 
 Sum ← {+⌿⍵}

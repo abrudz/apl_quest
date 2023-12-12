@@ -1,3 +1,4 @@
+⍝ Write an APL dfn which returns a 1 if the opening and closing parentheses in a character vector are balanced, or a zero otherwise.
 t←'(1 2)×(3+(3÷4))×(1+2)÷8'
 
 ⍝ Parenthesis depth changes

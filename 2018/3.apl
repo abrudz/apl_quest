@@ -1,3 +1,4 @@
+⍝ write an APL expression that, given an integer scalar or vector representing the number of sides on each of a set of dice, will return a histogram showing the distribution curve for the possible totals that can be rolled using those dice.
 ⍳6
 ⍝ 1 2 3 4 5 6
 ⍳6 6

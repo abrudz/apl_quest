@@ -1,3 +1,4 @@
+⍝ Write a function that takes, as each of its right and left arguments, a pair of co-ordinates representing diagonally opposite corners of two rectangles and returns a 1 if the rectangles overlap. The co-ordinates could be either (upper-left, lower-right) or (upper-right, lower left).
 ab←(0 2)(5 9)
 xy1←(4 0)(11 3)
 xy0←(8 0)(13 3)

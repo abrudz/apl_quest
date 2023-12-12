@@ -1,3 +1,4 @@
+⍝ Write a function that returns the population standard deviation of its numeric array right argument.
 mean←+⌿÷≢
 dev←⊢-mean
 square←*∘2

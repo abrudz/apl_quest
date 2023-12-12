@@ -1,3 +1,4 @@
+⍝ Write an APL expression that, given a 2-element integer vector representing month and day, returns a character vector (string) of the corresponding Western zodiac sign.
 r←6 4⍴'Aries ' 'March 21–April 19 ' 'Libra ' 'September 23–October 22' 'Taurus ' 'April 20–May 20 ' 'Scorpio ' 'October 23–November 21' 'Gemini ' 'May 21–June 20 ' 'Sagittarius ' 'November 22–December 21' 'Cancer ' 'June 21–July 22 ' 'Capricorn ' 'December 22–January 19' 'Leo ' 'July 23–August 22 ' 'Aquarius ' 'January 20–February 18' 'Virgo ' 'August 23–September 22 ' 'Pisces ' 'February 19–March 20'
 r
 ⍝ ┌───────┬───────────────────────┬────────────┬───────────────────────┐

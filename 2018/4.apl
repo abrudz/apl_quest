@@ -1,3 +1,4 @@
+⍝ Write an APL expression that, given a scalar integer year, returns a character vector (string) of the Chinese zodiac sign for that year. For the purposes of this problem, assume that each year number corresponds to exactly one Chinese zodiac animal.
 r
 ⍝ ┌─────┬────────┬──┬─────┬──────┐
 ⍝ │2018 │Dog     │  │2012 │Dragon│

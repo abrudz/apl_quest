@@ -1,3 +1,7 @@
+⍝ Write a function that:
+  ⍝  takes a scalar integer argument, n, in the range 0-100.
+  ⍝  returns a character matrix comprised of spaces and ⎕ that resembles an n-level left-to-right ascending stairway.
+
 {⍳⍵}5
 ⍝ 1 2 3 4 5
 {∘.+⍨⍳⍵}5

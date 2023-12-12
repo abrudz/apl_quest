@@ -1,3 +1,4 @@
+⍝ Write a dfn which calculates the distance (in meters) a projectile travels given an initial velocity in meters per second and a trajectory in degrees. Use 9.8 meters per second squared as the gravitational constant.
 D←{9.8÷⍨(⍺*2)×1○2×○⍵÷180}
 D←{9.8÷⍨⍺×⍺×1○2×○⍵÷180}
 D←{9.8÷⍨⍺×⍺×1○○⍵÷90}

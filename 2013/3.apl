@@ -1,3 +1,4 @@
+⍝ Write a dfn which returns the number of words in the given character scalar or vector.
 s←'hyphen-dash string'
 l←'x'
 e←''

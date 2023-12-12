@@ -1,3 +1,4 @@
+⍝ Write a function that will return the first n odd natural numbers.
 {⍳⍵}5
 ⍝ 1 2 3 4 5
 {2×⍳⍵}5

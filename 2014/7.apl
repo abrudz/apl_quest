@@ -1,3 +1,4 @@
+⍝ Imagine there are two circles that are tangent to one another. One circle is stationary, the other can “roll” around the stationary circle. Write a dfn which takes the diameters of the stationary and mobile circles and returns the number of revolutions the mobile must traverse until the tangent points meet again.
 R←1{0=⍺|⍺⍺×⍵:⍺⍺ ⋄ ⍺((⍺⍺+1)∇∇)⍵} ⍝ Recursive
 I←{1+⍣(0=⍺|⍵×⊣)0}               ⍝ Iterative
 

@@ -1,3 +1,7 @@
+⍝ Write a function that:
+⍝    takes a right argument that is a Boolean scalar or vector.
+⍝   returns the length of the longest sequence of consecutive 1s.
+
 s←1 1 1 0 0 1 1 0 1 1 1 1 0
 {⍵⊆⍵}s
 ⍝ ┌─────┬───┬───────┐

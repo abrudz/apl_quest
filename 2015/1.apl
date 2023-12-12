@@ -1,3 +1,4 @@
+⍝ Write a function that takes two character vectors as its left and right arguments and returns 1 if they are anagrams of each other.
 x←'anagram'
 y←'Nag A Ram!'
 

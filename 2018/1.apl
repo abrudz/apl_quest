@@ -1,3 +1,4 @@
+⍝ Write an APL expression that, given a scalar or vector of skyscraper heights from closest to furthest, will return an integer representing the number of skyscrapers that can be seen.
 t←5 5 2 10 3 15 10
 {⌈\⍵}t
 ⍝ 5 5 5 10 10 15 15

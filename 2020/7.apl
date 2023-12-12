@@ -1,3 +1,4 @@
+⍝ Write a function that, given a non-negative right argument which is an integer scalar representing the encoded state and a left argument which is an integer scalar representing the encoded state settings that you want to query, returns 1 if all of the codes in the left argument are found in the right argument (0 otherwise).
       3 (,) 10
 3 10
       3 (2⊥⍣¯1,) 10

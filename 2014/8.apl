@@ -1,3 +1,4 @@
+⍝ Write a dfn that returns the distance between two points in a space of any number of dimensions.
 A←{0.5*⍨+/2*⍨⍺-⍵}
 u1←2 2 ⋄ v1←5 6
 u2←2 2 3 4 ⋄ v2←3 7 10 9

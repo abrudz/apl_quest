@@ -1,3 +1,4 @@
+⍝ Write an APL expression that takes left and right arguments of character scalars or vectors returns a 1 if the arguments are anagrams of one another, 0 otherwise. 
 a←'ALBERT EINSTEIN' 'AB' ⋄ b←'TEN ELITE BRAINS' 'CAB'
 a {⍺⍵}¨ b
 ⍝ ┌──────────────────────────────────┬─────────┐

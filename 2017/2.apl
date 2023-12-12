@@ -1,3 +1,4 @@
+⍝ Write a function that takes an integer array and replaces all the odd numbers with the next greater even number.
       a←4 4⍴(⍳16)-5
 ⍝ ¯4 ¯3 ¯2 ¯1
 ⍝  0  1  2  3
