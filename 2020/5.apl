@@ -1,3 +1,4 @@
+⍝ Write a function that, given a right argument of 2 integers, returns a vector of the integers from the first element of the right argument to the second, inclusively.
 +\3 1 1 1 1 1 1 1
 ⍝ 3 4 5 6 7 8 9 10
 +\10 ¯1 ¯1 ¯1 ¯1 ¯1 ¯1 ¯1
