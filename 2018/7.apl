@@ -1,3 +1,4 @@
+⍝ Write an APL expression that given a right argument of a Boolean scalar or vector, and left argument scalar integer of the shift amount, returns an appropriately shifted transformation of the right argument.
 3 0 ¯3 {⍺⍵}¨⊂ 1 0 1 1 1 0 1 1  ⍝ pairing up arguments
 ⍝ ┌───────────────────┬───────────────────┬────────────────────┐
 ⍝ │┌─┬───────────────┐│┌─┬───────────────┐│┌──┬───────────────┐│
