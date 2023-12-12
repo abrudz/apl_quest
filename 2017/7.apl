@@ -1,3 +1,4 @@
+⍝ Write a function that takes a character vector representing a DNA string and returns 4 integers of the number of occurrences for each of the symbols ‘A’, ‘C’, ‘G’, and ‘T’ respectively.
 'ACGT' ∘.= 'ATTACCA'  ⍝ outer "product"
 ⍝ 1 0 0 1 0 0 1
 ⍝ 0 0 0 0 1 1 0
