@@ -1,3 +1,4 @@
+⍝ Write an APL expression that given left and right arguments of such timestamps returns a ¯1, 1, or 0 if the left argument represents a time that is respectively, earlier than, later than, or simultaneous with the right argument.
 X←⍪3⍴⊂2018 4 1 12 34 56 789
 Y←⍪(2018 4 1 16 45 12 800)(2018 4 1 12 34 56 789)(2017 4 1 12 34 56 789)
 ⍝      X Y
