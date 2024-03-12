@@ -1,3 +1,7 @@
+⍝ Write a function that:
+  ⍝ takes a non-empty non-scalar array right argument
+  ⍝ returns an array of the same shape as the argument, but with pairs of elements along the last axis “flipped”. If the array has an odd number of elements in the last axis, leave the last element unchanged.
+
 n
 ⍝ ┌────────┬──────┬────────┬────────┬────────┐
 ⍝ │Griselda│Upton │Prospero│Delicia │Topaza  │
@@ -182,3 +186,24 @@ I2←{⍵⌷[⍴⍴⍵]⍨⊂⍋(⍳+⍴∘2 0)⊢/⍴⍵}
 cmpx'I a' 'I2 a'
 ⍝   I a  → 3.0E¯4 |   0% ⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕
 ⍝   I2 a → 8.0E¯5 | -74% ⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕                             
+⍋(⍳+⍴∘2 0)5
+⍝ 2 1 4 3 5
+⍋(⍳+⍴∘2 0)6
+⍝ 2 1 4 3 6 5
+(⍳+⍴∘1 ¯1)6
+⍝ 2 1 4 3 6 5
+(⍳+⍴∘1 ¯1)5
+⍝ 2 1 4 3 6
+5⌊(⍳+⍴∘1 ¯1)5
+⍝ 2 1 4 3 5
+5⌊@5(⍳+⍴∘1 ¯1)5
+⍝ 2 1 4 3 5
+I3←{⍵⌷[⍴⍴⍵]⍨⊂l⌊@l(⍳+⍴∘1 ¯1)l←⊢/⍴⍵}                             
+cmpx'I2 a' 'I3 a'                                         
+⍝   I2 a → 1.2E¯4 |  0% ⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕
+⍝   I3 a → 1.1E¯4 | -5% ⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕  
+⍴b←,a
+⍝ 20000
+cmpx'I2 b' 'I3 b'                                         
+⍝   I2 b → 1.8E¯4 |   0% ⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕
+⍝   I3 b → 1.3E¯4 | -30% ⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕⎕            
